@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @truck.name
+%p
+  %b Twitter:
+  = @truck.twitter
+%p
+  %b Location:
+  = @truck.location
+
+= link_to 'Edit', edit_truck_path(@truck)
+\|
+= link_to 'Back', trucks_path

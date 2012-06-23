@@ -1,4 +1,8 @@
 Rails3MongoidDevise::Application.routes.draw do
+  resources :favorites
+
+  resources :trucks
+
   #get \"users\/show\"
 
   root :to => "home#index"

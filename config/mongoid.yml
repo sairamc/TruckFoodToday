@@ -8,11 +8,11 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: rails3_mongoid_devise_development
+  database: truckfoodnow
 
 test:
   <<: *defaults
-  database: rails3_mongoid_devise_test
+  database: truckfoodnow_test
 
 # set these environment variables on your prod server
 production:
