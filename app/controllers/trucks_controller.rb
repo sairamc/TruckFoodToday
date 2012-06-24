@@ -2,6 +2,7 @@ class TrucksController < ApplicationController
   # GET /trucks
   # GET /trucks.xml
   def index
+    debugger
     @trucks = Truck.all
 
     respond_to do |format|

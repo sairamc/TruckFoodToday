@@ -13,7 +13,10 @@
     = f.label :twitter
     = f.text_field :twitter
   .field
-    = f.label :location
-    = f.text_field :location
+    = f.label :latitude
+    = f.text_field :location, :multiple => true, :id => "foo_location_1"
+  .field
+    = f.label :longitude
+    = f.text_field :location, :multiple => true, :id => "foo_location_2"
   .actions
     = f.submit 'Save'

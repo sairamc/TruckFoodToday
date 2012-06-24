@@ -20,3 +20,5 @@ gem "mongoid_session_store"
 gem 'mongoid_fulltext'
 gem 'gmaps4rails'
 gem 'mongoid_spacial'
+gem "geocoder"
+gem 'ruby-debug19'
